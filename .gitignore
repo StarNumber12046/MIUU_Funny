@@ -1,0 +1,5 @@
+conf/
+Build/
+Backup/
+**/__pycache__
+Templates/

@@ -1,0 +1,16 @@
+[
+    {"name": "Powerup_Pickup", "template": "therock"},
+    {"name": "Powerup_Speed_use v3", "template": "yey"},
+    {"name": "ui_button_select_2", "template": "vineboom"},
+    {"name": "ui_button_select_2", "template": "vineboom"},
+    {"name": "ui_buttonback", "template": "vineboom"},
+    {"name": "ui_highlight", "template": "therock"},
+    {"name": "ui_buttonnavigate_a2", "template": "vineboom"},
+    {"name": "ui_select", "template": "vineboom"},
+    {"name": "out_of_bounds_3", "template": "scream"},
+    {"name": "mega_jump_a1", "template": "mario"},
+    {"name": "mega_jump_a2", "template": "mario"},
+    {"name": "mega_jump_a3", "template": "mario"},
+    {"name": "mega_jump", "template": "mario"},
+    {"name": "Powerup_SJump_Use v2", "template": "mario"}
+  ]
