@@ -4,6 +4,9 @@
 - Python (>= 3.9)
 - [UABE]("https://github.com/SeriousCache/UABE/releases/tag/v3.0-beta1")
 
+## Before doing anything
+Run `python tools.py setup` and `python tools.py backup`
+
 ## Compiling the patches and patching the game
 ### Compiling the audio patches
 1. Setup the tooling (`python tools.py setup`)
@@ -37,4 +40,4 @@
 2. For each file in the corresponding folder, in UABE go to View > Search by name and type the exact string, make sure it is a Texture2D (if not, press f3; if it is not found, open an issue), hit Plugins > Edit > Load and import the file, then click Done
 3. Once you are done, hit `File > apply and save all` and place the files in Build/Temp. Keep the same name but remove the `-mod` from .assets-mod
 
-Once you have finished patching, run `python tools.py dist` to put all the files in the dist folder
+Once you have finished patching, run `python tools.py dist` to put all the files in the dist folder. Use `python tools.py install` to install the patches and `python tools.py revert` to revert
