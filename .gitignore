@@ -3,3 +3,11 @@ Build/
 Backup/
 **/__pycache__
 Templates/
+**.log
+Unity/miuu_funny/Library/
+Unity/miuu_funny/[Tt]emp/
+Unity/miuu_funny/[Oo]bj/
+Unity/miuu_funny/[Bb]uild/
+Unity/miuu_funny/[Bb]uilds/
+Unity/miuu_funny/[Ll]ogs/
+Unity/miuu_funny/[Uu]ser[Ss]ettings/

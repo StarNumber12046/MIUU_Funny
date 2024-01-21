@@ -1,15 +1,16 @@
 import os
-import shutil
+import pathlib
 import json
 
 def main():
     
-    FIXER = ["sharedassets0.resource", "funnysounds.resource"]
     
     conf = json.load(open("tools/patches.json"))
     for item in conf:
-        f = open("Build/patches/" + item["name"]+".txt", "w")
+        
+        pathlib.Path.mkdir(pathlib.Path("Build/patches/" + item["origin"]), parents=True, exist_ok=True)
+        f = open("Build/patches/" + item["origin"] + "/" + item["name"]+".txt", "w")
         template = open("Templates/" + item["template"] + ".txt", "r")
         t = template.read()
-        f.write(t.replace(item["template"], item["name"]).replace(FIXER[0], FIXER[1]))
+        f.write(t.replace(item["template"], item["name"]).replace(item["origin"], "miuu_funny.resource"))
         f.close()
